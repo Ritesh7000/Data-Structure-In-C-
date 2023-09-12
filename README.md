@@ -8,6 +8,6 @@ If code is 'Singly Linked List' than file name is:<br>
 <br><br>
 FileNumbering = 1,2,3,...
 <br>
-Operation = Insert, Delete, Search, Concat, Reverse, ect..<
+Operation = Insert, Delete, Search, Concat, Reverse, ect...
 <br>
 LinkedListType = Singly, Doubly, Singly_Circular, Doubly_Circular.
