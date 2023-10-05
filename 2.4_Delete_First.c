@@ -85,8 +85,8 @@ int DeleteFirst(struct Node **ppHead)
     (*ppHead)->pPrev  =NULL; //2nd node chya prev madhe null tak
 
     return iDelData;
-
 }
+
 void Display(struct Node *pHead)
 {
     if(NULL == pHead)
