@@ -29,8 +29,6 @@ int main(void)
     Display(pFirst);
     printf("\nTotal Nodes = %d\n",CountNodes(pFirst));
     
-
-
     return 0;
 }
 
