@@ -31,6 +31,7 @@ int main(void)
 void InsertFirst(struct Node **ppHead,int iNo)
 {
     struct Node *pNewNode = NULL;
+    
     pNewNode = (struct Node*)malloc(sizeof(struct Node));
 
     if(pNewNode == NULL)
