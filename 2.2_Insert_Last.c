@@ -69,5 +69,5 @@ void Display(struct Node *pHead)
         printf("|%d|%d|%d|->",pHead->pPrev,pHead->iData,pHead->pNext);
         pHead = pHead->pNext;
     }
-    return;
+    //return;
 }
