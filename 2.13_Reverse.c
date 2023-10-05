@@ -8,6 +8,7 @@ struct Node
     struct Node *pPrev;
     struct Node *pNext;
 };
+
 void InsertFirst(struct Node **ppHead,int iNo);
 void Display(struct Node *pHead);
 void PhysicalReverse(struct Node **);
