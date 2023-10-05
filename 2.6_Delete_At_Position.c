@@ -87,8 +87,8 @@ int DeleteFirst(struct Node **ppHead)
     (*ppHead)->pPrev  =NULL; //2nd node chya prev madhe null tak
 
     return iDelData;
-
 }
+
 int DeleteLast(struct Node **ppHead)
 {
     int iDelData;
