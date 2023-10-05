@@ -63,6 +63,7 @@ void InsertLast(struct Node **ppHead,int iNo)
     pTemp ->pNext = pNewNode;
     pNewNode ->pPrev = pTemp;
 }
+
 int SearchAllOccurence(struct Node *pHead,int iKey)
 {
     int iCount=0;
@@ -76,6 +77,7 @@ int SearchAllOccurence(struct Node *pHead,int iKey)
     }
     return iCount;
 }
+
 void Display(struct Node *pHead)
 {
     if(NULL == pHead)
