@@ -12,7 +12,6 @@ void InsertAtPosition(struct Node **ppHead,int iNo,int iPos);
 void InsertFirst(struct Node **ppHead,int iNo);
 void InsertLast(struct Node **ppHeadd,int iNo);
 int CountNodes(struct Node *pHHead);
-
 void Display(struct Node *pHead);
 
 int main(void)
