@@ -7,6 +7,7 @@ struct node{
     int iData;
     struct node *pNext;
 };
+
 void InsetFirst(struct node **,int);
 int DeleteLast(struct node**);
 void Display(struct node*);
@@ -27,6 +28,7 @@ int main(void)
 
     return 0;
 }
+
 void InsetFirst(struct node **ppHead,int iNo)
 {
     struct node *pNewNode = NULL;
@@ -53,6 +55,7 @@ void InsetFirst(struct node **ppHead,int iNo)
     *ppHead=pNewNode;
     return;
 }
+
 int DeleteLast(struct node**ppHead)
 {
     int iDelData;
@@ -82,6 +85,7 @@ int DeleteLast(struct node**ppHead)
 
     return iDelData;
 }
+
 void Display(struct node*pHead)
 {
     while(pHead != NULL)
