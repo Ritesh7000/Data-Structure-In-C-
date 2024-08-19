@@ -28,6 +28,7 @@ int main(void)
     Display(pFirst,pLast);
     printf("\nThe last position is %d",SearchAllOccurence(pFirst,pLast,50));
 
+    //The last position is 0
 
     return 0;
 }
@@ -89,6 +90,5 @@ void Display(struct node *pHead, struct node *pTail)
         pHead = pHead ->pNext;
     }
     while(pHead != pTail->pNext);
-    return;
 }
 
