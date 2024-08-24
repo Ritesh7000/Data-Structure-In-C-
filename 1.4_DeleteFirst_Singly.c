@@ -10,6 +10,7 @@ struct Node
 void InsertFirst(struct Node **ppHead,int iNo);
 int DeleteFirst(struct Node **ppHead);
 void Display(struct Node *pHead);
+
 int main(void)
 {
     struct Node *pFirst = NULL;
