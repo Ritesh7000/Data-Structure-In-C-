@@ -82,10 +82,12 @@ void ConcatAtPosition(struct Node **ppHead1,struct Node **ppHead2,int iPos)
 
     pTemp1 = (*ppHead1);
     pTemp2 = (*ppHead2);
+    
     while(pTemp2->pNext != NULL)
     {
         pTemp2 = pTemp2 ->pNext;
     }
+    
     while(iCount > iPos-1)
     {
         iCount++;
